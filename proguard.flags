@@ -7,3 +7,6 @@
 -keep class android.telecom.Log {
   *;
 }
+-keep public class * extends android.widget.ListView {
+    public *;
+}
